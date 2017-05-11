@@ -1,0 +1,169 @@
+﻿.header {
+    font-family: Arvo;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 17px;
+    background-color: #FFAD73;
+    margin: 0;
+    margin-left: 0;
+    width: 100%;
+    z-index: -2;
+}
+
+.name{
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.lin {
+    text-align: right;
+}
+
+.title {
+    text-align: center;
+}
+
+body {
+
+    background-color: rgb(253, 250, 247);
+    margin: 0;
+    color: #301F0D;
+}
+
+.img {
+    border-radius: 50px;
+
+
+
+}
+
+#linkedinicon {
+    float: right;
+}
+
+h3, col-6 {
+    max-width: 750px;
+    text-align: center;
+    padding-top: 4em;
+    font-family: 'Lato', sans-serif;
+}
+
+h4 {
+    padding-top: 3em;
+}
+
+form {
+    padding-top: 2.5em;
+}
+
+input, textarea {
+    border-radius: 6px;
+    height: 30px;
+    margin-bottom: 10px;
+    font-family: VT323;
+}
+
+textarea {
+    height: 80px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li {
+    width: 100%;
+    text-align: center
+}
+
+button {
+    border-radius: 10px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: #FFAD73;
+    color: #301F0D;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px;
+}
+input::placeholder, textarea::placeholder {
+    color: #301F0D;
+    opacity: 0.5;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #301F0D;
+    color: rgb(253, 250, 247);
+    font-weight: 700;
+    line-height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+    /*header {
+    padding-left: 10.5em;
+    font-size: 25px;
+}
+
+#linked {
+    margin: -40px 1000px;
+    margin-top: -10em;
+}
+
+.navbar-inverse {
+    background-color: lightgoldenrodyellow
+}
+
+#picture {
+    border-radius: 100px;
+    margin-top: -2em;
+}
+
+#picture img {
+    float: left;
+}
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: #F0EAD6;
+}
+
+h3 {
+    max-width: 750px;
+    text-align: left;
+    padding-top: 5em;
+}
+
+h4 {
+    padding-top: 3em;
+}
+
+#name {
+    line-height: 100px;
+    width: 500px;
+}
+
+/* Set padding to keep content from hitting the edges */
+    /*.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}*/
+    /* Set width on the form input elements since they're 100% wide by default */
+    /*input,
+select,
+textarea {
+    max-width: 700px;
+}*/
